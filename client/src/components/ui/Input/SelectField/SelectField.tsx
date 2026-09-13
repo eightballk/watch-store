@@ -49,7 +49,7 @@ export default function SelectField({ id, error, ...attributes }: SelectFieldPro
       </option>
 
       {options.map((option) => (
-        <option value={option.categoryName.toLowerCase()} key={option.id}>
+        <option value={option.categoryName} key={option.id}>
           {option.categoryName}
         </option>
       ))}
